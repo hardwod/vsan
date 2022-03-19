@@ -1,0 +1,30 @@
+{
+  "name": "qaz",
+  "description": "yuh",
+  "keywords": [
+    "hufy"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "820ebd5d-7ebf-4bd1-a70e-0c9227847f04",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/sarakkk/gejeuek",
+  "repository": "https://github.com/sarakkk/gejeuek",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
